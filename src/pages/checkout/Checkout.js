@@ -41,7 +41,7 @@ const Checkout = () => {
     // http://localhost:4242/create-payment-intent.
     
     // Create PaymentIntent as soon as the page loads
-    fetch("http://localhost:4242/create-payment-intent", {
+    fetch("https://mmshop-ecommerce-react-firebase.vercel.app/create-payment-intent", {
 
       method: "POST",
       headers: { "Content-Type": "application/json" },
