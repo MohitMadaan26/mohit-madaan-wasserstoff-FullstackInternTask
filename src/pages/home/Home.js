@@ -36,7 +36,6 @@ const Home = () => {
 
   return (
     <div>
-      <div>MM</div>
       <Slider />
       <Product id = "MM" />
     </div>
