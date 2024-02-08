@@ -12,7 +12,7 @@ import { selectEmail } from "../../redux/slice/authReducer";
 import {
   selectBillingAddress,
   selectShippingAddress,
-} from "../../redux/slice/checkoutSlice";
+} from "../../redux/slice/checkoutReducer";
 import { toast } from "react-toastify";
 import CheckoutForm from "../../components/checkoutForm/CheckoutForm";
 
