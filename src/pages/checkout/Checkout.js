@@ -8,7 +8,7 @@ import {
   selectCartItems,
   selectCartTotalAmount,
 } from "../../redux/slice/cartSlice";
-import { selectEmail } from "../../redux/slice/authSlice";
+import { selectEmail } from "../../redux/slice/authReducer";
 import {
   selectBillingAddress,
   selectShippingAddress,
