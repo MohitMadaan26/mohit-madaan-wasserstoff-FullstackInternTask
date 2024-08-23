@@ -25,6 +25,7 @@ const ProductItem = ({ grid, product, id, name, price, desc, imageURL }) => {
     dispatch(CALCULATE_TOTAL_QUANTITY());
   };
 
+
   return (
     <div className={grid ? `${styles.grid}` : `${styles.list}`}>
       <Link to={`/product-details/${id}`}>

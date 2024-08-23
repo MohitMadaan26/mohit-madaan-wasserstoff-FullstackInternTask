@@ -38,10 +38,10 @@ const Checkout = () => {
   const description = `eShop payment: email: ${customerEmail}, Amount: ${totalAmount}`;
 
   useEffect(() => {
-    // http://localhost:4242/create-payment-intent.
+    http://localhost:4242/create-payment-intent
     
     // Create PaymentIntent as soon as the page loads
-    fetch("https://mmshop-ecommerce-react-firebase.vercel.app/create-payment-intent", {
+    fetch("http://localhost:4242/create-payment-intent", {
 
       method: "POST",
       headers: { "Content-Type": "application/json" },

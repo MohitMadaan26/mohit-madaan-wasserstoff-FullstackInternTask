@@ -58,7 +58,7 @@ const ProductDetails = () => {
     dispatch(CALCULATE_TOTAL_QUANTITY());
   };
 
-  const decreaseCart = () => {
+  const decreaseCart = (product) => {
     dispatch(DECREASE_CART(product));
     dispatch(CALCULATE_TOTAL_QUANTITY());
   };

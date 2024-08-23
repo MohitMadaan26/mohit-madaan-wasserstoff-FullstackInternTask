@@ -6,6 +6,7 @@ import orderReducer from "./slice/orderReducer";
 import productReducer from "./slice/productReducer";
 import { configureStore } from "@reduxjs/toolkit";
 
+
 const store = configureStore({
   reducer: {
     authReducer,
